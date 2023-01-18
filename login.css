@@ -1,0 +1,104 @@
+body{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#container{
+    width: 100vw;
+    height: 100vh;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;  
+    
+}
+#login{
+  width: 490px;
+  height: 570px;
+  padding: 0px 20px 0 20px;
+  background-color: white;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#img{
+  height: 570px;
+  width: 530px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.img{ 
+height: 570px;
+width: 530px;
+}
+#detalhes{
+  position: relative;
+  margin: 0;
+  text-align: center;
+}
+.btn{
+    background-color: #000; 
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 70%;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+.btn:hover{
+  color:cornflowerblue;
+
+}
+.btn2{
+  background-image: url("logo google.png");
+  background-repeat: no-repeat;
+  background-position: 4em;
+  background-size: 2em;
+    background-color: white; 
+  border-color: black;
+  border-radius: 5px;
+  color: black;
+  width: 70%;
+  padding: 10px 0 10px 0;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.2s;
+  cursor: pointer;
+  outline: 0;
+}
+.btn2:hover{
+ color: cornflowerblue;
+ 
+}
+.txt{
+  width: 70%;
+  padding: 5px 4px;
+  margin: 15px 0;
+  border: 0;
+  border-bottom: 2px solid rgb(200, 200, 200);
+  background-color: white;
+  font-size: 14px;
+  outline: 0;
+}
+.txt:focus{
+  border-bottom: 2px solid cornflowerblue;
+}
+a{
+  position: relative;
+  left: 2px;
+  color: black;
+  transition: 0.2;
+}
+a:hover{
+color: rgb(29, 64, 138);
+
+}
+
+
+
+
+
